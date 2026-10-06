@@ -1,6 +1,6 @@
 import { User, UserDocument } from "../models/user.model"
 import { CreateUserDTO, UserResponse, AuthResponse } from "../types/user.types"
-import { hashPassword, comparePassword, generateToken } from "../utils/utils"
+import { hashPassword, comparePassword, generateToken } from "../utils/user.utils"
 
 // Create a new user
 export const createUser = async (
